@@ -11,7 +11,7 @@ Ce projet vise à créer une expérience digitale alléchante pour Keithston, en
 - **Optimisation mobile :** Design adapté à tous les appareils.
 
 ## Prototype
-Découvrez le design Figma : [Voir le Prototype](https://www.figma.com)
+Découvrez le design Figma : [Voir le Prototype](https://www.figma.com/design/NpmEcPVcFNH49g36IH09Cg/Bouchta-Mohamed?node-id=0-1&t=XS50vvNQY8hcXygF-1)
 
 ## Technologies Utilisées
 - HTML5
