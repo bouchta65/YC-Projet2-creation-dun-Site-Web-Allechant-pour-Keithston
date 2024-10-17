@@ -5,80 +5,262 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Discover Keithston's gourmet cuisine. Explore our menu, learn our story, and order delicious dishes online.">
     <title>Keithston</title>
+    <link href='https://fonts.googleapis.com/css?family=Sansita Swashed' rel='stylesheet'>
     <link rel="icon" href="images/logo/Modrino__2_-removebg-preview 1.png">
     <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/Service-nav.css">
+  
+
 </head>
+
+
+
 <body>
     <header id="menu">
         <img class="logo" src="images/logo/Modrino__2_-removebg-preview 1.png" alt="">
         <nav id="navbar">
             <ul>
-                <li><a class="active" href="#">Home</a></li>
+                <li><a class="active" href="#Home">Home</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#Services">Services</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>  
         </nav>
         
     </header>
-    <section>
+    <section id="Home">
         <div class="img-container">
             <img id="backround-cover" src="images/home picture/image 1.png" alt="">
             <h1 class="content-1">Delicious Cafe</h1> 
             <h1 class="content-2">Sweet Treats, <br> Perfect Eats</h1>
-            <button class="btn-shop">Shop Now</button>
+            <button class="btn-shop"><a href="#shop">Shop Now</a></button>
             <h3 class="mini-title">Learn More</h3>
             <!--icone -->
             
         </div>
     </section id="home">
 
-    <section>
-        <div>
-            <h1 class="title">Top Products</h1>
-        </div>
-    </section>
-
 
 
     <section id="shop" >
+        <div>
+            <h1 class="title">Top Products</h1>
+        </div>
+      
         <div class="shop-container">
-           <div class="grib-images"><img src="images/" alt=""></div>
+            
+           <div class="grid-images">
+            <img class="img1" src="images/items/1.png" alt="">
+            <img class="icon-img"  src="images/items/Group 8.png" alt="">
+            <h3>$40</h3>
+            <h2>Whole Grain <br>Bread</h2>
+            <button>Add</button>
+           </div>
+           <div class="grid-images">
+            <img class="img2"  src="images/items/2.png" alt="">
+            <img class="icon-img"  src="images/items/Group 8.png" alt="">
+            <h3>$40</h3>
+            <h2>Whole Grain <br>Bread</h2>
+            <button>Add</button>
+           </div>
+           <div class="grid-images">
+            <img class="img3"  src="images/items/3.png" alt="">
+            <img class="icon-img"  src="images/items/Group 8.png" alt="">
+            <h3>$40</h3>
+            <h2>Whole Grain <br>Bread</h2>
+            <button>Add</button>
+           </div>
+           <div class="grid-images">
+            <img class="img4"  src="images/items/4.png" alt="">
+            <img class="icon-img"  src="images/items/Group 8.png" alt="">
+            <h3>$40</h3>
+            <h2>Whole Grain <br>Bread</h2>
+            <button>Add</button>
+           </div>
+           <div class="grid-images">
+            <img class="img5"  src="images/items/5.png" alt="">
+            <img class="icon-img"  src="images/items/Group 8.png" alt="">
+            <h3>$40</h3>
+            <h2>Whole Grain <br>Bread</h2>
+            <button>Add</button>
+           </div>
+           <div class="grid-images">
+            <img  class="img6" src="images/items/6.png" alt="">
+            <img class="icon-img"  src="images/items/Group 8.png" alt="">
+            <h3>$40</h3>
+            <h2>Whole Grain <br>Bread</h2>
+            <button>Add</button>
+           </div>
+           
         </div>
     </section>
-
 
 
     <section id="More" >
         <div class="More-container">
-            <img class="more-img" src="images/first order picture/1.png" alt="">
+            <img class="more-img" src="images/first order picture/8.png" alt="">
             <h1 class="more-title">20% Off  Your  <br>First Order</h1>
             <p class="more-text">Suspendisse ac rhoncus nisl,<br> eu tempor urna. Curabitur vel <br> bibenjgg.</p>
             <button class="more-btn">Read More</button>
         </div>
     </section> 
 
+    <section id="Services">
+        <div>
+            <h1 class="title">Explore More</h1>
+        </div>
+        <div class="body-navbrar">
+            <nav class="body-nav">
+                <ul>
+                <li><a href="#cake" class="menu-item">Cake</a></li>
+                <li><a href="#Muffins" class="menu-item">Muffins</a></li>
+                <li><a href="#croissant" class="menu-item">Croissant</a></li>
+                <li><a href="#Bread" class="menu-item">Bread</a></li>
+                <li><a href="#Tart" class="menu-item">Tart</a></li>
+                <li><a href="#Favorite" class="menu-item">Favorite</a></li>
+                </ul>
+            </nav>
+        </div>
 
+                <section id="cake" class="menu-section">
+                    <div class="service-contaner">
+                        <div><img src="images/cake/1.png" alt=""></div>
+                        <div><img src="images/cake/2.png" alt=""></div>
+                        <div><img src="images/cake/3.png" alt=""></div>
+                        <div><img src="images/cake/4.png" alt=""></div>
+                        <div><img src="images/cake/5.png" alt=""></div>
+                        <div><img src="images/cake/6.png" alt=""></div>
+                    </div>
+                </section>
+
+                <section id="Muffins" class="menu-section">
+                    <div class="service-contaner">
+                        <div><img src="images/Muffin/1.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Muffin/2.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Muffin/3.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Muffin/4.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Muffin/5.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Muffin/6.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                    </div>
+                </section>
+                
+                <section id="croissant" class="menu-section">
+                    <div class="service-contaner">
+                        <div><img src="images/croissant/1.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/croissant/2.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/croissant/3.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/croissant/4.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/croissant/5.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/croissant/6.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                    </div>
+                </section>
+
+                <section id="Bread" class="menu-section">
+                    <div class="service-contaner">
+                        <div><img src="images/Bread/1.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Bread/2.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Bread/3.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Bread/4.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Bread/5.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Bread/6.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                    </div>
+                </section>
+
+                <section id="Tart" class="menu-section">
+                    <div class="service-contaner">
+                        <div><img src="images/Tart/1.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Tart/2.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Tart/3.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Tart/4.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Tart/5.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Tart/6.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                    </div>
+                </section>
+
+                <section id="Favorite" class="menu-section">
+                    <div class="service-contaner">
+                        <div><img src="images/cake/1.png" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Tart/1.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/croissant/1.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/Bread/1.jpg" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/cake/3.png" style="width: 360px; height: 350px;" alt=""></div>
+                        <div><img src="images/cake/4.png" style="width: 360px; height: 350px;" alt=""></div>
+                    </div>
+                </section>
+             
+              
+    </section>
+    
     <section id="about" >
         <div class="about-container">
-            <img class="about-img" src="images/about us picture/3.png" alt="">
+            <img class="about-img" src="images/about us picture/4.png" alt="">
             <h1 class="about-title">About us</h1>
             <p class="about-text">Suspendisse ac rhoncus nisl, <br> eu tempor urna. Curabitur vel <br> bibendum lorem. Morbi <br> convallis.</p>
             <button class="about-btn">Read More</button>
         </div>
+
     </section> 
 
+    <section>
+        <div>
+            <h1 class="title">Featured Treats</h1>
+        </div>
+        <div class="featured">
+            <img src="images/featured treats pictures/Rectangle 153.png" alt="">
+            <img src="images/featured treats pictures/Rectangle 154.png" alt="">
+            <img src="images/featured treats pictures/Rectangle 156.png" alt="">
+            <div class="titre1">    
+                <h1 >Puff Pastry </h1>
+                <h2>$8</h2>
+            </div>
+            <div class="titre1">    
+                <h1 >Doughnuts </h1>
+                <h2>$8</h2>
+            </div>
+            <div class="titre1">    
+                <h1 >Brownies </h1>
+                <h2>$8</h2>
+            </div>
+            
+            
+            
+        </div>
+    </section>
 
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-content">
+                <h1>Get in touch with us</h1>
+                <div class="hello">
+                    <div class="cercle-logo"><img src="images/logo/Modrino__2_-removebg-preview 1.png" alt=""></div>
+                    <p>Hi, We are KEITHSTON. Need help? Use the form <br> below or email us at info@modrino.co.uk.</p>
+                </div>
+                <div class="content-contact">
+                    <span>Name</span>
+                    <input type="text" placeholder="Bouchta Mohamed">
+                    <span>Email</span>
+                    <input type="email" placeholder="Bouchta@domain.com">
+                    <span>Message</span>
+                    <textarea placeholder="Type your query here....."></textarea>
+                    <button>Contact Us</button>
+                </div>
+
+            </div>
+            <div class="map">
+
+            </div>
+        </div>
+    </section>
     
     <footer >
         <div id="footer-container">
             <div class="background-footer">
-            <img class="img-footer" src="images/footer background/Rectangle 75.png" alt="">
-            <img class="img-footer2" src="images/footer background/Rectangle 75.png" alt="">
+            <img class="img-footer" src="images/footer background/1.png" alt="">
             <h6 class="copyright">© 2024 Bake House. All rights reserved</h6>
             <img class="logo-footer" src="images/logo/Modrino__2_-removebg-preview 1.png" alt="">
             <h2 class="title-folowus">Follow us</h2>
+            <div class="border"></div>
             <div class="social-icons">
                 <img class="fb-footer" src="images/icons/facebook.svg" alt="">
                 <img class="ig-footer" src="images/icons/instagram.svg" alt="">
@@ -103,8 +285,8 @@
                 <h3 class="title-2">Services</h3> 
             </div>
             <div class="mini-img-footer">
-                <img src="images/explore more pictures/1.png" alt=""> 
-                <img src="images/explore more pictures/2.png" alt="">
+                <img src="images/Shop/1.png" alt=""> 
+                <img src="images/Shop/2.png" alt="">
             </div>
             <div class="mini-title-footer3">
                 <h5 class="title-mini-3-1">June 14,2024</h5>
@@ -116,6 +298,6 @@
         </div>
     </footer>
  
-    
+    <script src="just-bonus/scrypt.js"></script>
 </body>
 </html>
