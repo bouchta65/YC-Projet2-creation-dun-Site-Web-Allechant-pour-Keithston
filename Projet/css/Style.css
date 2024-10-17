@@ -25,7 +25,7 @@
 #menu a{
     text-decoration: none;
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Poppins';
     color: aliceblue;
 }
 #menu ul li{
@@ -63,11 +63,12 @@ position: absolute;
 top: 30%;
 color: #E9BD8C;
 margin-left: 5%;
+font-family: 'Inter';
 }
 .content-2{
     position: absolute;
     top: 35%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Sansita Swashed';
     font-size:80px;
     color: #ededed;
     margin-left: 5%;
@@ -81,9 +82,13 @@ margin-left: 5%;
     border-color: black;
     border-radius: 10PX;
     background-color: #933C24;
-    color: white;
     font-size: 30px;
     top: 70%;
+    font-family: 'Inter';
+}
+.btn-shop a{
+    text-decoration: none;
+    color: white;
 }
 .btn-shop:hover{
     background-color: #642513;
@@ -93,6 +98,7 @@ margin-left: 5%;
     margin-left: 17%;
     color: #E9BD8C;
     top: 71%;
+    font-family: 'Inter';
 }
 
 /*---Top Products Section Style---*/
@@ -100,7 +106,9 @@ margin-left: 5%;
     font-size:60px;
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: 'Sansita Swashed';
 }
 
 
@@ -112,11 +120,16 @@ margin-left: 5%;
     position: relative;
 }
 
+.about-img{
+    width: 100%;
+}
+
 .about-title{
     position: absolute;
     color: white;
     font-size: 60px;
     top: 16%;
+    font-family: 'Sansita Swashed';
 }
 
 .about-text{
@@ -126,6 +139,7 @@ margin-left: 5%;
     color: #B9B9B9;
     font-size: 30px;
     top: 35%;
+    font-family: 'Inter';
 }
 
 .about-btn{
@@ -138,6 +152,7 @@ margin-left: 5%;
     color: white;
     font-size: 30px;
     top: 70%;
+    font-family: 'Inter';
 }
 .about-btn:hover{
     background-color: #642513;
@@ -147,9 +162,14 @@ margin-left: 5%;
 /*---More-container---*/
 
 .More-container{
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+.more-img{
+    width: 100%;
 }
 
 .more-title{
@@ -157,6 +177,7 @@ margin-left: 5%;
     color: #933C24;
     font-size: 48px;
     text-align: center;
+    font-family: 'Sansita Swashed';
     top: 10%;
 }
 
@@ -166,6 +187,7 @@ margin-left: 5%;
     position: absolute;
     color: #5D5D5D;
     font-size: 30px;
+    font-family: 'Inter';
     top: 40%;
 }
 
@@ -176,6 +198,7 @@ margin-left: 5%;
     border-color: black;
     border-radius: 10PX;
     background-color: #933C24;
+    font-family: 'Inter';
     color: white;
     font-size: 30px;
     top: 75%;
@@ -184,18 +207,220 @@ margin-left: 5%;
     background-color: #642513;
 }
 
+/*---Shop Style---*/
 
+ .grid-images {
+    background-image: url("../images/Shop/Rectangle\ 69.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 250;
+    border-radius:5%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.shop-container {
+
+    display: grid;
+    grid-template-columns: repeat(3,17%);
+    grid-template-rows: repeat(2,50%);
+    justify-content: center;
+    grid-gap: 1.5em;
+}
+.grid-images .img1{
+    position: absolute;
+    margin-top: 6%;
+    width: 150px;
+    height: 150px;
+}
+.grid-images .img2{
+    position: absolute;
+    margin-top: 5%;
+    width: 130px;
+    height: 150px;
+}
+.grid-images .img3{
+    position: absolute;
+    margin-top: 4%;
+    width: 180px;
+    height: 180px;
+}
+.grid-images .img4{
+    position: absolute;
+    margin-top: 6%;
+    width: 130px;
+    height: 130px;
+}
+.grid-images .img5{
+    position: absolute;
+    margin-top: 8%;
+    width: 130px;
+    height: 130px;
+}
+.grid-images .img6{
+    position: absolute;
+    margin-top: 4%;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.icon-img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 75%;
+    margin-left: 60%;
+}
+
+.grid-images h3{
+    position: absolute;
+    color: white;
+    margin-right: 60%;
+    margin-top: 75%;
+    
+}
+.grid-images h2{
+    position: absolute;
+    color: white;
+    margin-right: 30%;
+    margin-top: 93%;
+    font-size: 18px;   
+}
+.grid-images button{
+    position: absolute;
+    font-size: 20px;
+    padding: 5px 6px;
+    background-color: #933C24;
+    border: none;
+    color: white;
+    margin-top: 93%;
+    margin-left: 60%;
+}
+
+.grid-images button:hover{
+    background-color: #d3370b;
+}
+
+/*---service-contaner---*/
+
+.body-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.body-nav ul li {
+    display: inline-block;
+    margin: 0 17px;
+}
+
+.body-nav a{
+    text-decoration: none;
+    color:#4e4c4c;
+    font-size: 25px;
+}
+
+.body-nav a:hover{
+    color: #933C24;
+} 
+
+
+
+.service-contaner{
+    display:grid;
+    grid-template-columns: repeat(3,23%);
+    grid-template-rows: repeat(2,50%);
+    justify-content: center;
+    column-gap: 2em;
+    row-gap: 1em;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+
+/*---contact-container---*/
+
+#contact{
+    display: flex;
+    justify-content: center;
+}
+.contact-container{
+    display: flex;
+    width: 75%;
+    height: 26em;
+    justify-content: center;
+    
+    
+}
+
+.contact-content{
+    width: 50%;
+    background-color: #201F1F;
+}
+.contact-content h1{
+    color: aliceblue;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.contact-content p{
+    color: aliceblue;
+    margin-left: 4%;
+    border: solid 1px white ;
+    width: 62%;
+    padding: 2%;
+}
+.hello{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 5%;
+
+}
+.cercle-logo{
+    background: black;
+    padding: 3px 26px;
+    border-radius: 100%;
+    width: 1px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cercle-logo img{
+    width: 40px;
+    height: 40px;
+    
+}
+.map{
+    width: 45%;
+    background-color: #642513;
+}
+
+/*---featured section---*/
+
+.featured{
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    justify-content: center;
+    margin-bottom:4%;
+}
+
+.featured img{
+    border-radius: 3%;
+}
+
+.featured .titre1{
+display: flex;
+justify-content:center;
+margin-top: 3%;
+
+}
+
+.featured .titre1 h1{
+    margin-right:20%;
+}
 /*---Footer Style---*/
-#footer-container .background-footer .img-footer{
-    width: 50%;
-    display: block;
-}
-#footer-container .background-footer .img-footer2{
-    margin-left: auto;
-    width: 50%;
-    display: block;
-
-}
 
 #footer-container .background-footer{
     position: relative;
@@ -211,7 +436,12 @@ margin-left: 5%;
     left: 50%;
     transform: translateX(-50%);
     
-} 
+}
+
+.img-footer{
+    width: 100%;
+}
+
 .logo-footer{
     position: absolute;
     width: 5%;
@@ -238,15 +468,15 @@ margin-left: 5%;
     margin-bottom: 20px;
 }
 
-.background-footer::after {
-    content: '';
+.border{
+    content:'';
     position: absolute;
     left: 50%; 
     transform: translateX(-50%); 
     display: block;
     width: 70%;
-    height: 2px;
-    top: 35%;
+    height: 1px;
+    top: 28%;
     background-color: #d2a679; 
 }
 
